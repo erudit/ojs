@@ -917,6 +917,13 @@ La validation peut échouer sur les URL de recherche qui nécessitent des formul
 	<message key="issue.viewIssue">Voir le numéro</message>
 	<message key="editor.submissionEditing.notes"><![CDATA[<ol>   <![CDATA[<ol>   <li>Les éléments surlignés indiquent qu'une action du rédacteur est requise, tel qu'indiqué :   <ul>]]></message>
 	<message key="site.noJournals">Il n'y a pas de revue disponible.</message>
+	<!-- Included here because it may be used in the navigation bar -->
+	<message key="editor.navigation.issues">Numéros</message>
+	<message key="search.cli.rebuildIndex.indexing">Indexage de "{$journalName}"</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Cette application de recherche ne permet pas le ré-indexage par journal.</message>
+	<message key="search.cli.rebuildIndex.unknownJournal">Le chemin d'accès fourni "{$journalPath}" n'a pu être résolu à un journal.</message>
+	<message key="article.pluginMissing"><![CDATA[<p>Le fichier PDF que vous avez sélectionné devrait s'afficher ici si votre navigateur Web a un plugiciel de lecture PDF d'installé (par exemple, une version récente de <a href="http://www.adobe.com/products/acrobat/readstep2.html">Adobe Acrobat Reader</a>).</p> <p>Sinon, vous pouvez également télécharger directement le fichier PDF sur votre poste de travail, où il peut être ouvert à l'aide d'un outil de lecture PDF. Pour télécharger le PDF, cliquer sur le lien Télécharger ci-dessous.</p> <p>Si vous désirez avoir plus d'information concernant l'impression, l'enregistrement et l'édition des fichiers PDF, Highwire Press fournit un <a href="http://highwire.stanford.edu/help/pdf-faq.dtl">FAQ (Frequently Asked Questions) à propos des PDF)</a> très utile.</p>]]></message>
+	<message key="about.onlineSubmissions.register">Aller à l'Inscription</message>
 	<message key="gifts.buyer">De</message>
 	<message key="gifts.buyerDescription">De qui est ce cadeau?</message>
 	<message key="gifts.recipient">À</message>
