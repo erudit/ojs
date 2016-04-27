@@ -489,6 +489,8 @@
 	<message key="manager.subscriptionTypes.form.options">Options</message>
 	<message key="manager.language.submissions">Soumissions</message>
 	<message key="manager.setup.addNavItem">Ajouter un élément</message>
+	<message key="manager.setup.doiReassign">Réaffecter les DOIs</message>
+	<message key="manager.setup.doiReassign.description">Si vous modifier votre configuration DOI, les DOIs qui ont déjà été affectés ne seront pas visés. Du moment que la configuration DOI est enregistrée, utiliser ce bouton pour effacer tous les DOIs existants afin que les nouveaux paramètres s'appliquent aux articles existants.</message>
 	<message key="manager.payment.giftFees">Tarif des formules cadeau</message>
 	<message key="manager.payment.giftFeesDescription">Un lien vers les abonnements en cadeau apparaîtra sur la page des abonnements dans À propos de la revue et dans la barre latérale des abonnements.</message>
 	<message key="manager.payment.options.acceptGiftSubscriptionPayments">Cela activera le règlement des abonnements en cadeau, permettant aux lecteurs de la revue d'acheter des abonnements en cadeau pour d'autres lecteurs.</message>
@@ -503,6 +505,12 @@
 	<message key="manager.setup.resetPermissions.description">La mention de droit d'auteur et l'information sur la licence seront attachées au contenu diffusé de façon permanente, afin d'assurer que les données restent telles quelles dans le cas d'un changement des politiques pour les nouvelles soumissions. Pour réinitialiser les autorisations stockées qui sont déjà attachées au contenu diffusé, utilisez le bouton ci-dessous.</message>
 	<message key="manager.setup.copyrightYearBasis">Baser l'année de mention de droit d'auteur du nouvel article sur</message>
 	<message key="manager.statistics.defaultMetricDescription">Votre revue est paramétrée pour enregistrer plus d'une mesure d'utilisation. Les statistiques d'utilisation seront affichées dans plusieurs contextes.
+	<message key="manager.setup.emailHeader">En-tête du courriel</message>
+	<message key="manager.setup.emailHeaderDescription">Les courriels préparés qui sont envoyés par le système au nom de la revue commenceront par l'en-tête suivant. Ces courriels seront adressés de la part du contact principal, c'est donc important de clarifier que le contact principal n'est pas forcément responsable du contenu du message, celui-ci pourrait être envoyé par un usager différent.</message>
+	<message key="manager.setup.focusAndScope.description">Saisir un énoncé de mission ci-dessous, qui apparaîtra dans À propos de la revue, indiquant aux auteurs, aux lecteurs et aux bibliothécaires les types d'articles que la revue publie.</message>
+	<message key="manager.setup.lockssLicenseDescription"><![CDATA[Open Journal Systems prend en charge le système <a href="http://lockss.org/" target="_blank">LOCKSS</a> (Lots of Copies Keep Stuff Safe) afin d'assurer l'archivage sécuritaire et permanent pour la revue. LOCKSS est un logiciel libre développé à la bibliothèque de l'Université Stanford qui permet aux bibliothécaires de préserver des revues numériques sélectionnées en interrogant régulièrement les sites Web des revues inscrites pour du contenu récemment publié et en l'archivant. Chaque archive est continuellement validée  par rapport aux caches des autres bibliothèques, et si son contenu est corrompu ou perdu, les autres caches de la revue sont utilisés pour le restaurer.
+  <br /><br />
+  La configuration de la prise en charge de LOCKSS pour Open Journal Systems n'a pas à être effectuée avant que le processus de publication soit bien enclenché, en quel cas, suivre ces deux étapes :]]></message>
 Il y a des cas où seulement une seule statistique d'utilisation doit être utilisée , ex. pour afficher une liste ordonnée des articles les plus utilisés ou pour classer les résultats de recherche. Veuillez sélectionner l'une des mesures paramétrées comme celle par défaut.</message>
 	<message key="manager.statistics.reports.defaultReport.articleDownloads">Téléchargement du fichier de l'article</message>
 	<message key="manager.statistics.reports.defaultReport.articleAbstract">Vues de la page résumé de l'article</message>
@@ -522,4 +530,6 @@ Il y a des cas où seulement une seule statistique d'utilisation doit être util
 	<message key="plugins.importexport.common.export.error.outputFileNotWritable">Le fichier de sortie {$param} n'est pas accessible en écriture.</message>
 	<message key="plugins.importexport.common.register.error.mdsError">L'enregistrement a échoué! Le serveur d'enregistrement DOI a retourné une erreur: '{$param}'.</message>
 	<message key="plugins.importexport.common.register.success">Enregistrement réussi!</message>
+	<message key="manager.setup.copyrightYearBasis.article">L'année par défaut sera prise de la date de publication de l'article, comme dans "publish-as-you-go".</message>
+	<message key="manager.setup.copyrightYearBasis.issue">L'année par défaut sera prise de la date de publication du numéro.</message>
 </locale>
